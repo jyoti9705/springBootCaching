@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="libraryapplication" />
+        <module name="ehcacheExample" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="11" />
+      <module name="ehcacheExample" target="11" />
+      <module name="libraryapplication" target="11" />
+      <module name="planetplaces" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="ehcacheExample" options="-parameters" />
+      <module name="libraryapplication" options="-parameters" />
+      <module name="planetplaces" options="-parameters" />
+    </option>
+  </component>
+</project>
